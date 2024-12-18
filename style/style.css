@@ -7,8 +7,6 @@ body{
     padding: 0px;
     margin: 0px;
 
-
-
 }
 #img-head{
     width: 100%;
@@ -180,5 +178,8 @@ body{
 
 }
 main{
+    overflow: hidden;
+}
+footer{
     overflow: hidden;
 }
