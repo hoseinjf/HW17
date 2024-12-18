@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/font-awesome.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet"
+        type="text/css" />
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/swiper-bundle.css">
+    <title>digikala</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid d-flex row">
+            <img id="img-head" src="./img/head1.png" class="col-12" alt="">
+
+        </div>
+        <div id="head-main" class="container-fluid row d-flex">
+            <a href="#" id="logo" class="col-3" style="padding: 0;margin: 0;">
+                <img src="./img/logo.svg" alt="" id="img-logo">
+            </a>
+
+            <div class="col-6" id="search-box">
+                <a href="#"><img style="width: 25px;height: 25px;margin-right: 20px;text-decoration:none;"
+                        src="./img/icons8-search-50.png"></a>
+                <input id="search-input" type="text" placeholder="جستوجو">
+            </div>
+            <div id="userOp" class="col-3">
+                <a href="#">
+                    <img src="./img/cart.svg" style="width: 25px;height: 25px;">
+                </a>
+                <h2 style="color: rgba(183, 183, 183, 0.559);width: 30px;height: 30px;text-align: center;">|</h2>
+                <button id="login">
+                    <img id="img-log" src="./img/box-arrow-in-left.svg" style="width: 25px;height: 25px;" alt="">
+                    <p id="log-p">ورود | ثبت نام</p>
+                </button>
+            </div>
+        </div>
+
+        <div id="head-end" class="container-fluid d-flex row">
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/list.svg" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;font-weight: 500;">دسته بندی کالاها</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/icons8-percentage-64.png" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;شگفت انگیزها</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/basket.svg" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;سوپرمارکت</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/postcard-heart.svg" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;کارت هدیه</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/fire.svg" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;پرفروشترین ها</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <img src="./img/icons8-discount-50.png" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;تخفیف ها و پیشنهادها</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                |&nbsp;&nbsp;&nbsp;
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">سوالی دارید؟</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">در دیجیکالا بفروشید!</span>
+                </div>
+            </div>
+
+            <div class="col-1 d-flex menu2">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;&nbsp;&nbsp;</span>
+                </div>
+            </div>
+
+
+            <div class="col-1 d-flex menu3">
+                <img src="./img/geo-alt-fill.svg" style="width: 18px;height: 18px;">
+                <div id="list">
+                    <span style="padding: 0;margin: 0;width: fit-content;">&nbsp;ارسال به تهران،تهران</span>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <main>
+        <div id="story" class="container-fluid d-flex row">
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/017b009f308c0dd269b401de7fcc9da1aedd3932_1733716491.jpg" alt="">
+                <p>استوری 1</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/0982bf5abdd6a9da1667c9ae9bf73e2fcea8a835_1733708734.jpg" alt="">
+                <p>استوری 2</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/1577a6c59f586c74b7692808d662ecda24d71e17_1733708889.jpg" alt="">
+                <p>استوری 3</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/536b5d4830f09b0c85889f9c8219b9e2db03fc54_1733640795.jpg" alt="">
+                <p>استوری 4</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/564f28c6d455114db300c7985ff14207d8835c99_1734248900.jpg" alt="">
+                <p>استوری 5</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/77a81628e81cbba662744ec48af554f89324d3aa_1733688848.jpg" alt="">
+                <p>استوری 6</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/7bcdc103304f62175324522f267c4d2ec5050180_1734159294.jpg" alt="">
+                <p>استوری 7</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/7c2dab5ebafe1ad067960f12ad159adecd45996b_1733836570.jpg" alt="">
+                <p>استوری 8</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/8f0bb84961a5eee3eabd7e04c1bf32c7d1222b01_1733648924.jpg" alt="">
+                <p>استوری 9</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/949fdcf7a44fa9707c760379e5681f3d62c059bf_1733672399.jpg" alt="">
+                <p>استوری 10</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/b2e0f25ec77699755939d7f0fcc8c8ce1b75ae38_1733668358.jpg" alt="">
+                <p>استوری 11</p>
+            </div>
+
+            <div id="dn1" class="col-1">
+                <img id="n1" src="./img/story/d988399c48d7a71e3039c66e6a426ed8f6ca0d7c_1733857367.jpg" alt="">
+                <p>استوری 12</p>
+            </div>
+
+        </div>
+        <div id="slider" class="container-fluid">
+
+
+            <div class="swiper w-100 h-100" id="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./img/slider/slider01.jpg" class=" w-100 h-100" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slider/slider02.gif" class=" w-100 h-100" alt="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./img/slider/slider03.jpg" class=" w-100 h-100" alt="">
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next">
+                </div>
+            </div>
+
+        </div>
+        <div id="story" class="container-fluid d-flex row">
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/t.png" alt="">
+                <p>استوری 1</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/f.png" alt="">
+                <p>استوری 2</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/h.jpg" alt="">
+                <p>استوری 3</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/k.png" alt="">
+                <p>استوری 4</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/m.png" alt="">
+                <p>استوری 5</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/p.png" alt="">
+                <p>استوری 6</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/p2.png" alt="">
+                <p>استوری 7</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/s.png" alt="">
+                <p>استوری 8</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/t.png" alt="">
+                <p>استوری 9</p>
+            </div>
+
+            <div id="dn2" class="col-1">
+                <img id="n1" src="./img/y.png" alt="">
+                <p>استوری 10</p>
+            </div>
+
+
+
+        </div>
+    </main>
+    <footer>
+        <hr>
+        <div id="head-main" class="container-fluid row d-flex">
+            <a href="#" id="logo" class="col-3" style="padding: 0;margin: 0;align-items: start;">
+                <img src="./img/logo.svg" alt="" id="img-logo">
+            </a>
+            <div class="col-6"></div>
+            <div id="userOp" class="col-3" style="align-items: end;">
+                <button id="login">
+                    <img src="./img/aaaarrow-50.png" style="width: 20px;height: 20px;" alt="">
+                    <p id="log-p" style="color: silver;">
+                        <a href="#" style="text-decoration: none;color: silver;">بازگشت به بال</a>
+                    </p>
+                </button>
+            </div>
+        </div>
+        <div id="head-main" class="container-fluid row d-flex">
+            <div class="col-6">
+                <p style="font-size: 12px;">
+                    تلفن پشتیبانی ۶۱۹۳۰۰۰۰ - ۰۲۱
+                    &nbsp;&nbsp; |&nbsp;&nbsp;
+                    ۰۲۱-۹۱۰۰۰۱۰۰
+                    &nbsp;&nbsp; |&nbsp;&nbsp;
+                    ۷ روز هفته، ۲۴ ساعته پاسخگوی شما هستیم
+                </p>
+            </div>
+        </div>
+        <div id="story" class="container-fluid d-flex row" style="align-items: center;justify-content: center;" >
+
+            <div class="col-1"></div>
+            <div id="" class="col-2" >
+                <img id="" src="./img/original-products.svg" alt="">
+                <p>استوری 1</p>
+            </div>
+
+            <div id="" class="col-2">
+                <img id="" src="./img/days-return.svg" alt="">
+                <p>استوری 2</p>
+            </div>
+
+            <div id="" class="col-2">
+                <img id="" src="./img/support.svg" alt="">
+                <p>استوری 3</p>
+            </div>
+
+            <div id="" class="col-2">
+                <img id="" src="./img/cash-on-delivery.svg" alt="">
+                <p>استوری 4</p>
+            </div>
+
+            <div id="" class="col-2">
+                <img id="" src="./img/express-delivery.svg" alt="">
+                <p>استوری 5</p>
+            </div>
+            <div class="col-1"></div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="./js/swiper-bundle.min.js">
+    </script>
+    <script>
+        const swiper = new Swiper('#swiper', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // If we need pagination
+            pagination: {
+                el: '.swiper-pagination',
+            },
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+
+            autoplay: {
+                delay: 3000,
+            },
+        });
+
+        const swiper2 = new Swiper('#slider2', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // Default parameters
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                780: {
+                    slidesPerView: 3,
+                    spaceBetween: 2
+                },
+
+                1200: {
+                    slidesPerView: 7,
+                    spaceBetween: 0
+                }
+            }
+        });
+
+        const swiper3 = new Swiper('#slider3', {
+            // Optional parameters
+            direction: 'horizontal',
+            loop: true,
+
+            // Navigation arrows
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+
+            // And if we need scrollbar
+            scrollbar: {
+                el: '.swiper-scrollbar',
+            },
+            // Default parameters
+
+            // Responsive breakpoints
+            breakpoints: {
+                // when window width is >= 320px
+                320: {
+                    slidesPerView: 1,
+                    spaceBetween: 20
+                },
+                // when window width is >= 480px
+                480: {
+                    slidesPerView: 1,
+                    spaceBetween: 30
+                },
+                // when window width is >= 640px
+                780: {
+                    slidesPerView: 3,
+                    spaceBetween: 2
+                },
+
+                1200: {
+                    slidesPerView: 5,
+                    spaceBetween: 0
+                }
+            }
+        });
+    </script>
+</body>
+
+</html>
